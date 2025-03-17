@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Send OTP via WhatsApp";
+}
+
+<h2>Send OTP</h2>
+
+<p>@ViewBag.Message</p>
+
+<form method="post" action="/Home/SendOTP">
+    <div class="form-group">
+        <label for="phoneNumber">Phone Number (with country code):</label>
+        <input type="text" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="+8801792231300" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Send OTP</button>
+</form>

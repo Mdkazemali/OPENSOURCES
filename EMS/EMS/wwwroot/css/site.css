@@ -1,0 +1,168 @@
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .local-video-container {
+        width: 30%;
+        max-width: 100px;
+        max-height: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .local-video-container {
+        width: 40%;
+        max-width: 80px;
+        max-height: 60px;
+    }
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+
+.login-pic {
+    display: block;
+    margin: 1px auto;
+    border: 2px solid;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid blue;
+}
+
+
+.home-pic {
+    display: block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+
+.responsive-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Media queries for different screen sizes */
+@media (min-width: 576px) { /* Mobile screens and above */
+    .responsive-image {
+        max-width: 400px; /* Adjust the maximum width as needed */
+        margin: 0 auto; /* Center the image */
+    }
+}
+
+@media (min-width: 992px) { /* Tablet screens and above */
+    .responsive-image {
+        max-width: 800px; /* Adjust the maximum width as needed */
+        margin: 0 auto; /* Center the image */
+    }
+}
+
+@media (min-width: 1200px) { /* Laptop screens and above */
+    .responsive-image {
+        max-width: 1500px; /* Adjust the maximum width as needed */
+        max-height: 540px;
+        margin: 0 auto; /* Center the image */
+    }
+}
+
+
+.fpr-pic {
+    max-width: 100%;
+    max-height: 130px; /* Adjust as necessary */
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+/*For Medicine list numbering*/
+.numbered-list {
+    counter-reset: list-counter;
+}
+
+    .numbered-list li {
+        list-style: none; /* Remove default bullet points */
+        counter-increment: list-counter;
+        position: relative;
+        padding-left: 1.5em; /* Add some padding for the number */
+    }
+
+        .numbered-list li::before {
+            content: counter(list-counter) ". ";
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+
+/*Table text and link */
+
+table tr th td {
+}
+
+.table-bordered {
+}
+
+.wh {
+}
+
+/*For Same color*/
+
+.btn-primary {
+    color: #fff !important;
+    background: linear-gradient(57deg, #055160, #055160) !important;
+    border-color: #0a58ca !important;
+}
+
+    .btn-primary:hover {
+        color: #fff;
+        background: linear-gradient( 57deg,#03404c, #03404c) !important;
+        border-color: #0a58ca;
+    }
+
+/*For headers color*/
+
+.header_content {
+    color: #03404c !important;
+}
+
+body {
+    background-color: ghostwhite;
+}
+
+.edit_del {
+    width: 150px;
+}
+
+.table {
+    border: black;
+}

@@ -1,0 +1,58 @@
+﻿@model EMS.UserRoleViewModel
+
+@{
+    ViewData["Title"] = "Assign Roles";
+}
+<h4> রোল নির্ধারন করুন</h4> 
+<hr />
+
+<form method="post">
+
+    <div class="form-group">
+        <input type="hidden" asp-for="UserId" />
+
+        <div class="form-check" style="border-bottom:3px solid green;">
+            <input type="checkbox" id="selectAll" class="form-check-input">
+            <label class="form-check-label" for="selectAll">Select All</label>
+        </div>
+        <div class="row">
+            @foreach (var role in Model.Roles)
+            {
+                <div class="col-md-4">
+                    <div class="form-check">
+                        <input type="checkbox" id="@role.Name" name="SelectedRoles" value="@role.Name" class="form-check-input"
+                        @(Model.UserRoles != null && Model.UserRoles.Contains(role.Name) ? "checked" : "")>
+                        <label class="form-check-label" for="@role.Name">@role.Name</label>
+                    </div>
+                </div>
+            }
+        </div>
+
+    </div>
+    <br />
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-primary">Cancel</a>
+</form>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var selectAllCheckbox = document.getElementById('selectAll');
+        var roleCheckboxes = document.querySelectorAll('[name="SelectedRoles"]');
+
+        selectAllCheckbox.addEventListener('change', function () {
+            roleCheckboxes.forEach(function (checkbox) {
+                checkbox.checked = selectAllCheckbox.checked;
+            });
+        });
+
+        roleCheckboxes.forEach(function (checkbox) {
+            checkbox.addEventListener('change', function () {
+                selectAllCheckbox.checked = Array.from(roleCheckboxes).every(function (cb) {
+                    return cb.checked;
+                });
+            });
+        });
+    });
+</script>
+

@@ -1,0 +1,42 @@
+﻿@model EMS.Models.d
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="row justify-content-center">
+    <h2 class="text-center header_content">Edit VIDEWS</h2>
+    <div class="col-md-6">
+        <form asp-action="Edit" class="row m-0 g-3 p-3 bg-light bg-gradient container border" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="vdoId" />
+            
+            <div class="form-group col-md-6">
+                <label asp-for="VideoName" class="control-label">ভিডিও নাম</label>
+                <input asp-for="VideoName" class="form-control" />
+                <span asp-validation-for="VideoName" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6">
+                <label asp-for="videoLink" class="control-label">ভিডিও আইডি</label>
+                <input asp-for="videoLink" class="form-control" required />
+                <span asp-validation-for="videoLink" class="text-danger"></span>
+            </div>
+
+            <div class="form-group" style="padding-top:5px;">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-primary">Back</a>
+            </div>
+
+        </form>
+
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+
+}

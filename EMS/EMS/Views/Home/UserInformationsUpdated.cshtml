@@ -1,0 +1,241 @@
+﻿ @model EMS.Models.UserInformation
+
+@{
+    ViewData["Title"] = "UserInformationsUpdated";
+}
+
+
+<style>
+
+    .custom-file-button input[type=file] {
+        margin-left: -2px !important;
+    }
+
+        .custom-file-button input[type=file]::-webkit-file-upload-button {
+            display: none;
+        }
+
+        .custom-file-button input[type=file]::file-selector-button {
+            display: none;
+        }
+
+    .custom-file-button:hover label {
+        background-color: #dde0e3;
+        cursor: pointer;
+    }
+
+
+    .sigcustom-file-button input[type=file] {
+        margin-left: -2px !important;
+    }
+
+        .sigcustom-file-button input[type=file]::-webkit-file-upload-button {
+            display: none;
+        }
+
+        .sigcustom-file-button input[type=file]::file-selector-button {
+            display: none;
+        }
+
+    .sigcustom-file-button:hover label {
+        background-color: #dde0e3;
+        cursor: pointer;
+    }
+
+</style>
+<div class="row">
+    <div class="col-md-12 p-1">
+        <h4 class="text-center header_content">Update your profile</h4>
+        <form asp-action="UserInformationsUpdated" class="row g-3 p-2 m-0 bg-light bg-gradient container border" enctype="multipart/form-data">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="UserinfoId" />
+            <input type="hidden" asp-for="LoginId" />
+            <input type="hidden" asp-for="PhotoUrl" />
+            <input type="hidden" asp-for="PhotoUrlsig" />
+
+
+            <div class="form-group col-md-2">
+                <label class="control-label"> Name</label>
+                <input asp-for="UserFullName" class="form-control" placeholder="Name" autocomplete="off" />
+                <span asp-validation-for="UserFullName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group col-md-2">
+                <label asp-for="PhoneNumber" class="control-label">Phone No.</label>
+                <input asp-for="PhoneNumber" class="form-control" placeholder="Phone No." autocomplete="off" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group col-md-2">
+                <label asp-for="Address" class="control-label"> Address</label>
+                <input asp-for="Address" class="form-control" placeholder="Address" autocomplete="off" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group col-md-3">
+                <label asp-for="Designation" class="control-label">Designations</label>
+                <input asp-for="Designation" class="form-control" placeholder="Designations" autocomplete="off" />
+                <span asp-validation-for="Designation" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group col-md-3">
+                <label asp-for="Degree" class="control-label">Educational qualifications</label>
+                <input asp-for="Degree" class="form-control" placeholder="Educational qua.." />
+                <span asp-validation-for="Degree" class="text-danger"></span>
+            </div>
+
+            <div class="form-group col-md-2">
+                <label asp-for="DVMRegiNo" class="control-label">Registration No.</label>
+                <input asp-for="DVMRegiNo" class="form-control" placeholder="Registrations No." />
+                <span asp-validation-for="DVMRegiNo" class="text-danger"></span>
+            </div>
+
+            <div class="form-group col-md-2">
+                <label asp-for="PassingYear" class="control-label">Passing Year</label>
+                <input asp-for="PassingYear" class="form-control" placeholder="Passing year" />
+                <span asp-validation-for="PassingYear" class="text-danger"></span>
+            </div>
+
+            <div class="form-group col-md-2">
+                <label asp-for="EmailNo" class="control-label">Email address</label>
+                <input asp-for="EmailNo" class="form-control" placeholder="Email" />
+                <span asp-validation-for="EmailNo" class="text-danger"></span>
+            </div>
+
+            <div class="form-group col-md-3">
+                <label asp-for="Facebook" class="control-label">Facebook</label>
+                <input asp-for="Facebook" class="form-control" placeholder="Facebook" />
+                <span asp-validation-for="Facebook" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-3">
+                <label asp-for="Website" class="control-label">Website</label>
+                <input asp-for="Website" class="form-control" placeholder="Website" />
+                <span asp-validation-for="Website" class="text-danger"></span>
+            </div>
+@*             <div class="form-group col-md-12">
+                <label asp-for="FacilityRegistryId" class="control-label">Select Header</label>
+                <select asp-for="FacilityRegistryId" class="form-control select2" asp-items="ViewBag.FacilityRegistryId">
+                    <option value=" ">--Select your Institute--</option>
+                </select>
+                <span asp-validation-for="FacilityRegistryId" class="text-danger"></span>
+            </div> *@
+
+
+
+            <br />
+
+            <!--For profile Photos -->
+
+            <div class="col-md-12 btn-group pb-1">
+
+                <div class="form-group col-md-2">
+
+
+
+                    @if (Model.PhotoUrl != null)
+                    {
+                            <b>Profile Photo</b>
+                        <img id="PreviewPhoto" src="~/images/@Model.PhotoUrl" alt="ProfilePhotos"
+                             width="125" height="125" />
+                    }
+                    else
+                    {
+
+                        <b>Profile Photo</b>
+                        <img id="PreviewPhoto" src="~/images/noimage.png" alt="Profile"
+                             width="125" height="125" />
+                    }
+
+                    <span asp-validation-for="PhotoUrl" class="text-danger"></span>
+
+                </div>
+
+
+                <div class="form-group col-md-2">
+                    <div class="input-group custom-file-button mt-5">
+                        <input asp-for="ProfilePhoto" class="form-control custom-file-input" id="customFile">
+                        <label class="input-group-text" for="customFile">Browse</label>
+                    </div>
+                </div>
+
+
+                <!--For signature Photos -->
+
+                <div style="padding-left:20px;" class="form-group col-md-2">
+
+
+
+                    @if (Model.PhotoUrlsig != null)
+                    {
+                        <b>Signature Photo</b>
+                        <img id="PreviewPhotosig" src="~/images/@Model.PhotoUrlsig" alt="Signature"
+                             width="125" height="125" />
+                    }
+                    else
+                    {
+                        <b>Signature Photo</b>
+                        <img id="PreviewPhotosig" src="~/images/noimage.png" alt="Signature"
+                             width="125" height="125" />
+                    }
+
+                    <span asp-validation-for="PhotoUrlsig" class="text-danger"></span>
+
+                </div>
+
+
+                <div class="form-group col-md-2">
+                    <div class="input-group sigcustom-file-button mt-5">
+                        <input asp-for="ProfilePhotosig" class="form-control sigcustom-file-input" id="customFilesig">
+                        <label class="input-group-text" for="customFilesig">Browse</label>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />&nbsp;
+                <a asp-action="Index" class="btn btn-primary">Back</a>
+            </div>
+
+
+            <div class="form-group pt-0 mt-0">
+                <div ID="HiddenDiv" style="visibility: hidden;">
+                    <input asp-for="PhotoUrl" id="PhotoUrl" value="" />
+                </div>
+            </div>
+
+            <div class="form-group pt-0 mt-0">
+                <div ID="HiddenDiv" style="visibility: hidden;">
+                    <input asp-for="PhotoUrlsig" id="PhotoUrlsig" value="" />
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.select2').select2();
+        });
+    </script>
+}
+
+
+

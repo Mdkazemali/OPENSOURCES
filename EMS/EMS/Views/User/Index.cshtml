@@ -1,0 +1,150 @@
+﻿@{
+    ViewData["Title"] = "User Index";
+}
+
+
+<style>
+ .table{
+     border:black;
+ }
+
+
+    .pr-pic {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #ccc;
+        position: relative;
+    }
+
+    .user-status {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        bottom: 5px;
+        right: 5px;
+        border-radius: 50%;
+        font-size: 14px;
+        line-height: 15px;
+        text-align: center;
+
+    }
+
+        /* Online Status */
+        .user-status.online {
+            color: green;
+        }
+
+        /* Offline Status */
+        .user-status.offline {
+            color: red;
+        }
+
+    /* Parent container to position status properly */
+    .profile-container {
+        position: relative;
+        display: inline-block;
+    }
+
+
+   
+</style>
+
+<a asp-area="Identity"  asp-page="/Account/Register" class="btn btn-primary">Create New User</a>
+<br />
+<br />
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+             
+            <th style="width:15px;">ফটো</th>
+            <th>নাম</th>
+            <th>মোবাইল</th>
+            <th>ঠিকানা</th>
+            <th>ইউজার আইডি</th>
+            <th>রোল</th>
+            <th style="width:250px;">
+               Role/Profile/PasswordReset
+            </th>
+           
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+
+            <tr>
+                <td>
+                    <div class="profile-container">
+                        @if (user.PhotoUrl != null)
+                        {
+                            <img src="~/images/@user.PhotoUrl" class="pr-pic" />
+                        }
+                        else
+                        {
+                            <img src="~/images/noimage.png" class="pr-pic" />
+                        }
+                        <span id="user-status-@user.UserName"
+                              class="user-status @(user.IsOnline ? "online" : "offline")">
+                            @(user.IsOnline ? "🟢" : "🔴")
+                        </span>
+                    </div>
+                </td>
+                <td>@user.UserFullName</td>
+                <td>@user.PhoneNumber</td>
+                <td>@user.Address</td>
+                <td>@user.UserName</td>               
+                <td>@user.RoleCount</td>
+                <td>
+
+                    <a asp-action="AssignRoles" class="btn btn-primary" asp-route-id="@user.UserId">Role</a>
+
+                    <a asp-action="UserInformationsUpdated" class="btn btn-primary" asp-controller="Home" asp-route-loginId="@user.UserName">Profile</a>
+
+                    <a asp-action="ResetPassword" class="btn btn-primary" asp-route-Email="@user.UserName">Password</a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.9/signalr.min.js"></script>
+<script>
+    var connection = new signalR.HubConnectionBuilder().withUrl("/onlineStatusHub").build();
+
+    // SignalR Callback for status change
+    connection.on("UserStatusChanged", function (userId, isOnline) {
+        var statusElement = document.getElementById("user-status-" + userId);
+        if (statusElement) {
+            statusElement.innerHTML = isOnline ? "🟢" : "🔴";
+        }
+    });
+
+    // SignalR Connection Start
+    connection.start().catch(function (err) {
+        return console.error(err.toString());
+    });
+
+    // পেজ লোড হওয়ার সময় ইউজারদের স্ট্যাটাস লোড করা
+    function loadAllUsersStatus() {
+        fetch('/Dashboard/GetAllUsersStatus')
+            .then(response => response.json())
+            .then(users => {
+                users.forEach(user => {
+                    let statusElement = document.getElementById("user-status-" + user.UserId);
+                    if (statusElement) {
+                        statusElement.innerHTML = user.IsOnline ? "🟢" : "🔴";
+                    }
+                });
+            })
+            .catch(error => console.error('Error:', error));
+    }
+
+    // পেজ লোড হলে সব ইউজারের স্ট্যাটাস লোড হবে
+    loadAllUsersStatus();
+
+</script>

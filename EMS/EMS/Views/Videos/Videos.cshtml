@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewData["Title"] = "Videos";
+}
+<style>
+    .card {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        transition: box-shadow 0.2s ease;
+    }
+
+        .card:hover {
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.9);
+        }
+
+    .card-body {
+        background: linear-gradient( to left, #055160, #03404c );
+        color:white;
+       
+        border-radius: 2px;
+        padding: 2px;
+    }
+
+    /* Additional styling for responsive video */
+    .embed-responsive {
+        height: 300px; /* Adjust the height as needed */
+    }
+
+    .card iframe {
+        width: 100%; /* Make the video fill the container */
+        height: 100%; /* Ensure the video maintains its aspect ratio */
+    }
+
+    /* Optional: Set a max height for the card */
+    .card {
+        max-height: 700px; /* Adjust the max height as needed */
+    }
+</style>
+
+<div class="container">
+    <div class="row">
+
+        @foreach (var i in Model.VideoDataList)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/@i.videoLink" title=" "
+                                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+                                                     picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <p>
+                            @i.VideoName. &nbsp; @i.CreateDate
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

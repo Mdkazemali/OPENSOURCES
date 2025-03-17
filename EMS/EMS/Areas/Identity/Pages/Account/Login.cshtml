@@ -1,0 +1,111 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+}
+
+<style>
+    .card {
+        width: 70%; /* Use a percentage for responsiveness */
+        max-width: 400px; /* Set a maximum width for larger screens */
+        margin: 0 auto; /* Center the card */
+        padding: 5px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card h2 {
+        color: #333333;
+    }
+
+    .card p {
+        color: #666666;
+    }
+
+    .lgn,
+    .lgnn {
+        padding: 5px 2px;
+        margin-top: 10px;
+        color: #ffffff;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        display: block;
+        width: 100%; /* Make buttons fill the container */
+    }
+
+    .lgn {
+        color: #fff !important;
+        background: linear-gradient(57deg, #055160, #055160) !important;
+        border-color: #0a58ca !important;
+    }
+
+    .lgn:hover {
+            color: #fff;
+            background: linear-gradient( 57deg,#03404c, #03404c) !important;
+            border-color: #0a58ca;
+    }
+
+    .lgnn {
+        color: #fff !important;
+        background: linear-gradient(57deg, #055160, #055160) !important;
+        border-color: #0a58ca !important;
+        text-decoration: none;
+    }
+
+    .lgnn:hover {
+            color: #fff;
+            background: linear-gradient( 57deg,#03404c, #03404c) !important;
+            border-color: #0a58ca;
+    }
+
+    /* Media queries for responsiveness */
+    media (max-width: 768px) {
+        .card {
+            width: 80%; /* Adjust width for smaller screens */
+        }
+    }
+</style>
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <img src="~/loginimages/punorbhaba.png" height="100" width="100" class="login-pic" />
+			<hr />
+            <section>
+                <form id="account" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-floating" style="padding-bottom: 5px;">
+                        <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" />
+                        <label asp-for="Input.Email" class="form-label"></label>
+                        <span asp-validation-for="Input.Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating" style="padding-bottom: 5px;">
+                        <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" />
+                        <label asp-for="Input.Password" class="form-label"></label>
+                        <span asp-validation-for="Input.Password" class="text-danger"></span>
+                    </div>
+                    <div>
+                        <div class="checkbox">
+                            <label asp-for="Input.RememberMe" class="form-label">
+                                <input class="form-check-input" asp-for="Input.RememberMe" />
+                                @Html.DisplayNameFor(m => m.Input.RememberMe)
+                            </label>
+                        </div>
+                    </div>
+                    <div>
+                        <button id="login-submit" type="submit" class="w-100 btn lgn">Log in</button>
+                    </div>
+                </form>
+            </section>
+            <p>
+                <a id="forgot-password" asp-action="SendEmail" asp-controller="Home" >Forgot your password?</a>
+            </p>
+            <a class="btn lgnn" asp-area="Identity" asp-page="/Account/Register">Create New Account</a>
+        </div>
+    </div>
+</div>

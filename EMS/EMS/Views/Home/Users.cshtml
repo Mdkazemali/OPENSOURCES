@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Users";
+}
+
+<br />
+<br />
+
+<div class="row">
+    @foreach (var user in Model)
+    {
+        <div class="col-md-2 mb-4">
+            <a asp-action="VideoCall" asp-route-userfullname="@user.UserFullName" asp-route-photourl="@user.PhotoUrl" asp-route-usrname="@user.UserName" class="text-decoration-none card-link-wrapper">
+                <div class="card bg-gradient text-black shadow-sm h-100">
+                    <div class="card-body text-center">
+                        <!-- User Image -->
+                        <h5 class="card-title">
+                            <img src="@Url.Content(string.IsNullOrEmpty(user.PhotoUrl) ? "~/images/noimage.png" : "~/images/" + user.PhotoUrl)"
+                                 class="pr-pic" alt="@user.UserFullName" />
+                        </h5>
+
+                        <!-- User Name -->
+                        <p class="card-text mt-2 fw-bold text-dark">
+                           @user.UserFullName
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    }
+
+</div>
+
+<style>
+    .pr-pic {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        object-fit: cover; /* Ensures the image fits perfectly */
+        border: 2px solid #ccc;
+    }
+
+    .card {
+        transition: transform 0.2s, box-shadow 0.2s;
+        cursor: pointer; /* Makes the card look clickable */
+    }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        }
+
+    .card-link-wrapper {
+        display: block; /* Ensures the link occupies the entire space */
+        text-decoration: none; /* Removes underline */
+        color: inherit; /* Ensures link text inherits the parent color */
+    }
+
+    .text-dark:hover {
+        text-decoration: underline;
+    }
+</style>

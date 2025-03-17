@@ -1,0 +1,99 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<style>
+    .card {
+        width: 100%; /* Make it responsive */
+        max-width: 400px;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 0 auto; /* Center the card */
+    }
+
+    .card h2 {
+        color: #333333;
+    }
+
+    .card p {
+        color: #666666;
+    }
+
+    .lgn,
+    .lgnn {
+        padding: 10px 15px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .lgn {
+        color: #fff !important;
+        background: linear-gradient(57deg, #055160, #055160) !important;
+        border-color: #0a58ca !important;
+    }
+
+        .lgn:hover {
+            color: #fff;
+            background: linear-gradient( 57deg,#03404c, #03404c) !important;
+            border-color: #0a58ca;
+        }
+
+    .lgnn {
+        color: #fff !important;
+        background: linear-gradient(57deg, #055160, #055160) !important;
+        border-color: #0a58ca !important;
+        text-decoration: none;
+    }
+
+        .lgnn:hover {
+            color: #fff;
+            background: linear-gradient( 57deg,#03404c, #03404c) !important;
+            border-color: #0a58ca;
+        }
+    media (max-width:768px) {
+        .card {
+            width: 100%; /* Adjust width for smaller screens */
+            max-width: none;
+        }
+    }
+</style>
+
+<div class="row">
+    <div class="col-12 col-md-4 offset-md-4">
+        <div class="card">
+            <img src="~/loginimages/punorbhaba.png" height="120" width="120" class="login-pic" />
+            <section>
+                <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-floating" style="padding-bottom:5px;">
+                        <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" />
+                        <label asp-for="Input.Email"></label>
+                        <span asp-validation-for="Input.Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-floating" style="padding-bottom:5px;">
+                        <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" />
+                        <label asp-for="Input.Password"></label>
+                        <span asp-validation-for="Input.Password" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-floating" style="padding-bottom:5px;">
+                        <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" />
+                        <label asp-for="Input.ConfirmPassword"></label>
+                        <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                    </div>
+
+                    <button id="registerSubmit" type="submit" class="w-100 btn btn-lg lgnn">Register</button>
+                </form>
+            </section>
+        </div>
+    </div>
+</div>
