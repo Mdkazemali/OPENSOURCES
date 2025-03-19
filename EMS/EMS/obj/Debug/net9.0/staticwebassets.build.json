@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zb4ETEhnVDag+l9u7QMmcxk7iOFXkFOga4x88i2bOiY=",
+  "Hash": "XH49/3r+d3b0HcMRcoar6q2aNu7WZZ8Yv9LtyYf8SoI=",
   "Source": "EMS",
   "BasePath": "_content/EMS",
   "Mode": "Default",
@@ -1991,12 +1991,12 @@
       "OriginalItemSpec": "C:\\Users\\Asus\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.0\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Identity": "E:\\EasyManage\\EMS\\EMS\\obj\\Debug\\net9.0\\compressed\\a772mc06w7-xpxig73hcw.gz",
+      "Identity": "E:\\EasyManage\\EMS\\EMS\\obj\\Debug\\net9.0\\compressed\\a772mc06w7-f1nzsuerop.gz",
       "SourceId": "EMS",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\EasyManage\\EMS\\EMS\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/EMS",
-      "RelativePath": "lib/qrcode#[.{fingerprint=xpxig73hcw}]?.js.gz",
+      "RelativePath": "lib/qrcode#[.{fingerprint=f1nzsuerop}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -2005,8 +2005,8 @@
       "RelatedAsset": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\qrcode.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "7u7d3ayvyh",
-      "Integrity": "75OgmrfCd6NP7bH1L/LYBQQiAlOBwDFeyc9gyMwso9Y=",
+      "Fingerprint": "u9fkg5foov",
+      "Integrity": "rkFG8ZoNXOKCadD6B8Ocs7V2lZhYOCQ0OUnYpHiaALo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\qrcode.js"
@@ -4133,6 +4133,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\images\\3ee43219-879c-4c88-a014-7a804be15fe0_Photo.png",
+      "SourceId": "EMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\",
+      "BasePath": "_content/EMS",
+      "RelativePath": "images/3ee43219-879c-4c88-a014-7a804be15fe0_Photo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "drkffcutgv",
+      "Integrity": "J6p3bIFbhVexzGbOSL6G3nwMmjK/xAU4BU+NlDnxWio=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3ee43219-879c-4c88-a014-7a804be15fe0_Photo.png"
+    },
+    {
       "Identity": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\images\\42b767ed-0cec-4f81-b919-d2f4a2332296_Photo.png",
       "SourceId": "EMS",
       "SourceType": "Discovered",
@@ -5554,8 +5575,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xpxig73hcw",
-      "Integrity": "y4iCDtmXc8rS1JoSxBTaQP8aG1JQHoyrr8gHn9VMXzs=",
+      "Fingerprint": "f1nzsuerop",
+      "Integrity": "nSw6FcUG3H/djSGDs4d7SQYSZ4Xji1K4/qX8J1QuMbc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\qrcode.js"
@@ -5964,7 +5985,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 09:09:02 GMT"
+          "Value": "Mon, 17 Mar 2025 23:35:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6017,7 +6038,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 09:09:02 GMT"
+          "Value": "Mon, 17 Mar 2025 23:35:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6054,7 +6075,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 09:09:02 GMT"
+          "Value": "Mon, 17 Mar 2025 23:35:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6101,7 +6122,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 09:09:02 GMT"
+          "Value": "Mon, 17 Mar 2025 23:35:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6162,7 +6183,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 09:09:02 GMT"
+          "Value": "Mon, 17 Mar 2025 23:35:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6207,7 +6228,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 09:09:02 GMT"
+          "Value": "Mon, 17 Mar 2025 23:35:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6262,7 +6283,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 09:09:02 GMT"
+          "Value": "Mon, 17 Mar 2025 23:35:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6323,7 +6344,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 09:09:02 GMT"
+          "Value": "Mon, 17 Mar 2025 23:35:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6368,7 +6389,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 09:09:02 GMT"
+          "Value": "Mon, 17 Mar 2025 23:35:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6423,7 +6444,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 09:09:02 GMT"
+          "Value": "Mon, 17 Mar 2025 23:35:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6476,7 +6497,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 09:09:02 GMT"
+          "Value": "Mon, 17 Mar 2025 23:35:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6513,7 +6534,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 09:09:02 GMT"
+          "Value": "Mon, 17 Mar 2025 23:35:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15398,6 +15419,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-1HkjQSVuV0/ji/X/lGeDTHeagBS0BwopMrHDQuwqgtU="
+        }
+      ]
+    },
+    {
+      "Route": "images/3ee43219-879c-4c88-a014-7a804be15fe0_Photo.drkffcutgv.png",
+      "AssetFile": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\images\\3ee43219-879c-4c88-a014-7a804be15fe0_Photo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112356"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J6p3bIFbhVexzGbOSL6G3nwMmjK/xAU4BU+NlDnxWio=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 17:30:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "drkffcutgv"
+        },
+        {
+          "Name": "label",
+          "Value": "images/3ee43219-879c-4c88-a014-7a804be15fe0_Photo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J6p3bIFbhVexzGbOSL6G3nwMmjK/xAU4BU+NlDnxWio="
+        }
+      ]
+    },
+    {
+      "Route": "images/3ee43219-879c-4c88-a014-7a804be15fe0_Photo.png",
+      "AssetFile": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\images\\3ee43219-879c-4c88-a014-7a804be15fe0_Photo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112356"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J6p3bIFbhVexzGbOSL6G3nwMmjK/xAU4BU+NlDnxWio=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 17:30:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J6p3bIFbhVexzGbOSL6G3nwMmjK/xAU4BU+NlDnxWio="
         }
       ]
     },
@@ -36329,13 +36432,13 @@
       ]
     },
     {
-      "Route": "lib/qrcode.js",
-      "AssetFile": "E:\\EasyManage\\EMS\\EMS\\obj\\Debug\\net9.0\\compressed\\a772mc06w7-xpxig73hcw.gz",
+      "Route": "lib/qrcode.f1nzsuerop.js",
+      "AssetFile": "E:\\EasyManage\\EMS\\EMS\\obj\\Debug\\net9.0\\compressed\\a772mc06w7-f1nzsuerop.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000101750102"
+          "Quality": "0.000101760456"
         }
       ],
       "ResponseHeaders": [
@@ -36345,15 +36448,176 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9827"
+          "Value": "9826"
         },
         {
           "Name": "ETag",
-          "Value": "\"75OgmrfCd6NP7bH1L/LYBQQiAlOBwDFeyc9gyMwso9Y=\""
+          "Value": "\"rkFG8ZoNXOKCadD6B8Ocs7V2lZhYOCQ0OUnYpHiaALo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:51:00 GMT"
+          "Value": "Mon, 17 Mar 2025 23:35:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"nSw6FcUG3H/djSGDs4d7SQYSZ4Xji1K4/qX8J1QuMbc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f1nzsuerop"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/qrcode.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nSw6FcUG3H/djSGDs4d7SQYSZ4Xji1K4/qX8J1QuMbc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/qrcode.f1nzsuerop.js",
+      "AssetFile": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\qrcode.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33781"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nSw6FcUG3H/djSGDs4d7SQYSZ4Xji1K4/qX8J1QuMbc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 23:35:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f1nzsuerop"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/qrcode.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nSw6FcUG3H/djSGDs4d7SQYSZ4Xji1K4/qX8J1QuMbc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/qrcode.f1nzsuerop.js.gz",
+      "AssetFile": "E:\\EasyManage\\EMS\\EMS\\obj\\Debug\\net9.0\\compressed\\a772mc06w7-f1nzsuerop.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9826"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rkFG8ZoNXOKCadD6B8Ocs7V2lZhYOCQ0OUnYpHiaALo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 23:35:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f1nzsuerop"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/qrcode.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rkFG8ZoNXOKCadD6B8Ocs7V2lZhYOCQ0OUnYpHiaALo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/qrcode.js",
+      "AssetFile": "E:\\EasyManage\\EMS\\EMS\\obj\\Debug\\net9.0\\compressed\\a772mc06w7-f1nzsuerop.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000101760456"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9826"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rkFG8ZoNXOKCadD6B8Ocs7V2lZhYOCQ0OUnYpHiaALo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Mar 2025 23:35:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36373,13 +36637,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"y4iCDtmXc8rS1JoSxBTaQP8aG1JQHoyrr8gHn9VMXzs=\""
+          "Value": "W/\"nSw6FcUG3H/djSGDs4d7SQYSZ4Xji1K4/qX8J1QuMbc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-y4iCDtmXc8rS1JoSxBTaQP8aG1JQHoyrr8gHn9VMXzs="
+          "Value": "sha256-nSw6FcUG3H/djSGDs4d7SQYSZ4Xji1K4/qX8J1QuMbc="
         }
       ]
     },
@@ -36394,7 +36658,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "33782"
+          "Value": "33781"
         },
         {
           "Name": "Content-Type",
@@ -36402,11 +36666,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"y4iCDtmXc8rS1JoSxBTaQP8aG1JQHoyrr8gHn9VMXzs=\""
+          "Value": "\"nSw6FcUG3H/djSGDs4d7SQYSZ4Xji1K4/qX8J1QuMbc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:51:00 GMT"
+          "Value": "Mon, 17 Mar 2025 23:35:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36416,13 +36680,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-y4iCDtmXc8rS1JoSxBTaQP8aG1JQHoyrr8gHn9VMXzs="
+          "Value": "sha256-nSw6FcUG3H/djSGDs4d7SQYSZ4Xji1K4/qX8J1QuMbc="
         }
       ]
     },
     {
       "Route": "lib/qrcode.js.gz",
-      "AssetFile": "E:\\EasyManage\\EMS\\EMS\\obj\\Debug\\net9.0\\compressed\\a772mc06w7-xpxig73hcw.gz",
+      "AssetFile": "E:\\EasyManage\\EMS\\EMS\\obj\\Debug\\net9.0\\compressed\\a772mc06w7-f1nzsuerop.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -36431,7 +36695,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9827"
+          "Value": "9826"
         },
         {
           "Name": "Content-Type",
@@ -36439,11 +36703,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"75OgmrfCd6NP7bH1L/LYBQQiAlOBwDFeyc9gyMwso9Y=\""
+          "Value": "\"rkFG8ZoNXOKCadD6B8Ocs7V2lZhYOCQ0OUnYpHiaALo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:51:00 GMT"
+          "Value": "Mon, 17 Mar 2025 23:35:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36461,7 +36725,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-75OgmrfCd6NP7bH1L/LYBQQiAlOBwDFeyc9gyMwso9Y="
+          "Value": "sha256-rkFG8ZoNXOKCadD6B8Ocs7V2lZhYOCQ0OUnYpHiaALo="
         }
       ]
     },
@@ -36760,167 +37024,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-ah5407/3+IZpLkNqnh2DoyGoaNZhOsUSN7ZF+dMjOuM="
-        }
-      ]
-    },
-    {
-      "Route": "lib/qrcode.xpxig73hcw.js",
-      "AssetFile": "E:\\EasyManage\\EMS\\EMS\\obj\\Debug\\net9.0\\compressed\\a772mc06w7-xpxig73hcw.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000101750102"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9827"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"75OgmrfCd6NP7bH1L/LYBQQiAlOBwDFeyc9gyMwso9Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:51:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"y4iCDtmXc8rS1JoSxBTaQP8aG1JQHoyrr8gHn9VMXzs=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xpxig73hcw"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/qrcode.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-y4iCDtmXc8rS1JoSxBTaQP8aG1JQHoyrr8gHn9VMXzs="
-        }
-      ]
-    },
-    {
-      "Route": "lib/qrcode.xpxig73hcw.js",
-      "AssetFile": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\qrcode.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "33782"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"y4iCDtmXc8rS1JoSxBTaQP8aG1JQHoyrr8gHn9VMXzs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:51:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xpxig73hcw"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/qrcode.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-y4iCDtmXc8rS1JoSxBTaQP8aG1JQHoyrr8gHn9VMXzs="
-        }
-      ]
-    },
-    {
-      "Route": "lib/qrcode.xpxig73hcw.js.gz",
-      "AssetFile": "E:\\EasyManage\\EMS\\EMS\\obj\\Debug\\net9.0\\compressed\\a772mc06w7-xpxig73hcw.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9827"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"75OgmrfCd6NP7bH1L/LYBQQiAlOBwDFeyc9gyMwso9Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:51:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xpxig73hcw"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/qrcode.js.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-75OgmrfCd6NP7bH1L/LYBQQiAlOBwDFeyc9gyMwso9Y="
         }
       ]
     },

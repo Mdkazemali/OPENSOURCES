@@ -25,7 +25,7 @@ namespace EMS
         // For UserRoles
 
         public string UserId { get; set; }
-        public List<d> VideoDataList { get; set; }
+        public List<Trainingvideo> VideoDataList { get; set; }
 
         //for User INformation 
 

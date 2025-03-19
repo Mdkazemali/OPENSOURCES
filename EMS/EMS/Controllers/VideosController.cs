@@ -30,7 +30,7 @@ namespace EMS.Controllers
 
             var model = new UserRoleViewModel
             {
-                //VideoDataList = trainingvideodata
+                VideoDataList = trainingvideodata
             };
 
             // Calculate and set the time difference

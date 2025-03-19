@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using EMS.Data;
 using EMS.Models;
 
-namespace smartlivestock.Controllers
+namespace EMS.Controllers
 {
     public class TrainingvideosController : Controller
     {
@@ -103,7 +103,7 @@ namespace smartlivestock.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("vdoId,VideoName,videoLink,CreateDate,Username")] d trainingvideo)
+        public async Task<IActionResult> Create([Bind("vdoId,VideoName,videoLink,CreateDate,Username")] Trainingvideo trainingvideo)
         {
             if (ModelState.IsValid)
             {
@@ -137,7 +137,7 @@ namespace smartlivestock.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("vdoId,VideoName,videoLink,CreateDate,Username")] d trainingvideo)
+        public async Task<IActionResult> Edit(int id, [Bind("vdoId,VideoName,videoLink,CreateDate,Username")] Trainingvideo trainingvideo)
         {
             if (id != trainingvideo.vdoId)
             {

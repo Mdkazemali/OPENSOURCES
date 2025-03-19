@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\images\\3ee43219-879c-4c88-a014-7a804be15fe0_Photo.png",
+      "PackagePath": "staticwebassets\\images\\3ee43219-879c-4c88-a014-7a804be15fe0_Photo.png"
+    },
+    {
       "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\images\\42b767ed-0cec-4f81-b919-d2f4a2332296_Photo.png",
       "PackagePath": "staticwebassets\\images\\42b767ed-0cec-4f81-b919-d2f4a2332296_Photo.png"
     },

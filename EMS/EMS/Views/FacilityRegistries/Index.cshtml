@@ -1,0 +1,168 @@
+﻿@model IEnumerable<EMS.Models.FacilityRegistry>
+
+@{
+    ViewData["Title"] = "Index";
+}
+@{
+    var LeaveCount = Model.Count();
+}
+<style>
+    .table {
+        border: black;
+    }
+</style>
+
+@{
+    var page = ViewData["Page"] != null ? (int)ViewData["Page"] : 1;
+    var pageSize = ViewData["PageSize"] != null ? (int)ViewData["PageSize"] : 50;
+    var totalPages = ViewData["TotalPages"] != null ? (int)ViewData["TotalPages"] : 1;
+    var totalRecords = ViewData["TotalRecords"] != null ? (int)ViewData["TotalRecords"] : 0;
+}
+
+<h5 class="header_content"> &nbsp; <b>No.of Institute Register</b> :<b> @LeaveCount </b> </h5>
+@using (Html.BeginForm("Index", "FacilityRegistries", FormMethod.Get))
+{
+
+    <div class="form-group header_content">
+
+        <input type="search" placeholder="Org.Name" value="@ViewData["org"]" name="org" style="width: 120px;height:33px; border:2px solid blue; " />
+        <input type="search" placeholder="Phone" value="@ViewData["phone"]" name="phone" style="width: 120px;height:33px; border:2px solid blue; " />
+        <input type="search" placeholder="District" value="@ViewData["district"]" name="district" style="width: 120px;height:33px; border:2px solid blue; " />
+        <input type="search" placeholder="Thana" value="@ViewData["upojela"]" name="upojela" style="width: 120px;height:33px; border:2px solid blue; " />
+        <input type="search" placeholder="Union" value="@ViewData["union"]" name="union" style="width: 120px;height:33px; border:2px solid blue; " />
+
+
+
+        <input type="submit" value="Search" class="btn btn-primary" />
+        <a asp-action="Create" class="btn btn-primary">Create New</a>
+        @((page - 1) * pageSize + 1)-
+        <input type="search" name="pp" value="@ViewData["pp"]" placeholder="PageSize" style="width: 65px;height:33px; border:2px solid blue;" /> of @totalRecords
+
+
+    </div>
+
+
+
+}
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    // get a reference to the search input field
+    const searchBox = $('#searchBox');
+
+    // listen for changes in the search input field
+    searchBox.on('input', function () {
+        const query = searchBox.val();
+        // make an asynchronous HTTP GET request to the server
+        $.ajax({
+            url: `/search?query=${query}`,
+            type: 'GET',
+            success: function (data) {
+                // update the page with the search results
+                $('#searchResults').html(data);
+            },
+            error: function (xhr, status, error) {
+                console.error(error);
+            }
+        });
+    });
+</script>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                L.Logos
+            </th>
+            <th>
+                R.Logos
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.OrganizationName)
+            </th>
+           
+            <th>
+               Facility Email
+            </th>
+            <th>
+                 Mobile
+            </th>
+         
+           
+            <th>
+                Distric
+            </th>
+         
+            <th>
+               Thana
+            </th>
+            <th>
+                Union
+            </th>
+            <th>
+                Last Date
+            </th>
+ 
+            <th>Edit</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                    @if (item.FalPhotoUrl != null)
+                    {
+                        <img src="~/FacilitiImages/@item.FalPhotoUrl" class="fpr-pic" />
+                    }
+                    else
+                    {
+                        <img src="~/images/noimage.png" class="fpr-pic" />
+                    }
+            </td>
+            <td>
+                    @if (item.FarPhotoUrl != null)
+                    {
+                        <img src="~/FacilitiImages/@item.FarPhotoUrl" class="fpr-pic" />
+                    }
+                    else
+                    {
+                        <img src="~/images/noimage.png" class="fpr-pic" />
+                    }
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.OrganizationName)
+            </td>
+           
+            <td>
+                @Html.DisplayFor(modelItem => item.FacilityEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FacilityMobile)
+            </td>
+            
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.DistricName)
+            </td>
+         
+            <td>
+                @Html.DisplayFor(modelItem => item.UpozillaName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnionName)
+            </td>
+            <td>
+              @item.LastUpdateDate.ToString("dd/MM/yyyy")
+            </td>
+           
+    
+            <td>
+                <a asp-action="Edit" class="btn btn-primary" asp-route-id="@item.FacilityId">Edit</a>            
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,209 @@
+﻿@model EMS.Models.FacilityRegistry
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<style>
+
+    .Falcustom-file-button input[type=file] {
+        margin-left: -2px !important;
+    }
+
+        .Falcustom-file-button input[type=file]::-webkit-file-upload-button {
+            display: none;
+        }
+
+        .Falcustom-file-button input[type=file]::file-selector-button {
+            display: none;
+        }
+
+    .Falcustom-file-button:hover label {
+        background-color: #dde0e3;
+        cursor: pointer;
+    }
+
+
+
+    .Farcustom-file-button input[type=file] {
+        margin-left: -2px !important;
+    }
+
+        .Farcustom-file-button input[type=file]::-webkit-file-upload-button {
+            display: none;
+        }
+
+        .Farcustom-file-button input[type=file]::file-selector-button {
+            display: none;
+        }
+
+    .Farcustom-file-button:hover label {
+        background-color: #dde0e3;
+        cursor: pointer;
+    }
+
+</style>
+
+<h4 class="text-center header_content"> Institute Informations</h4>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Edit" class="row g-3 m-0 bg-light bg-gradient container border" enctype="multipart/form-data">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="FacilityId" />
+            <input type="hidden" asp-for="FalPhotoUrl" />
+            <input type="hidden" asp-for="FarPhotoUrl" />
+
+            <div class="form-group col-md-3">
+                <label asp-for="OrganizationName" class="control-label"></label>
+                <input asp-for="OrganizationName" class="form-control" />
+                <span asp-validation-for="OrganizationName" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-3">
+                <label asp-for="FacilityEmail" class="control-label"></label>
+                <input asp-for="FacilityEmail" class="form-control" />
+                <span asp-validation-for="FacilityEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-3">
+                <label asp-for="FacilityMobile" class="control-label"></label>
+                <input asp-for="FacilityMobile" class="form-control" />
+                <span asp-validation-for="FacilityMobile" class="text-danger"></span>
+            </div>
+
+            <div class="form-group col-md-3">
+                <label asp-for="CityCorporationName" class="control-label"></label>
+                <input asp-for="CityCorporationName" class="form-control" />
+                <span asp-validation-for="CityCorporationName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group col-md-3">
+                <label asp-for="DivisionName" class="control-label"></label>
+                <input asp-for="DivisionName" class="form-control" />
+                <span asp-validation-for="DivisionName" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-3">
+                <label asp-for="DistricName" class="control-label"></label>
+                <input asp-for="DistricName" class="form-control" />
+                <span asp-validation-for="DistricName" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-3">
+                <label asp-for="UpozillaName" class="control-label"></label>
+                <input asp-for="UpozillaName" class="form-control" />
+                <span asp-validation-for="UpozillaName" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-3">
+                <label asp-for="UnionName" class="control-label"></label>
+                <input asp-for="UnionName" class="form-control" />
+                <span asp-validation-for="UnionName" class="text-danger"></span>
+            </div>
+
+            <br />
+
+
+            <!--For left Photos -->
+
+            <div class="col-md-12 btn-group pb-1">
+
+                <div class="form-group col-md-2">
+
+
+
+                    @if (Model.FalPhotoUrl != null)
+                    {
+                        <img id="FalPreviewPhoto" src="~/FacilitiImages/@Model.FalPhotoUrl" alt="Logo Image"
+                             width="125" height="125" />
+                    }
+                    else
+                    {
+
+
+                        <img id="FalPreviewPhoto" src="~/images/noimage.png" alt="Logo Image"
+                             width="125" height="125" />
+                    }
+
+                    <span asp-validation-for="FalPhotoUrl" class="text-danger"></span>
+
+                </div>
+
+
+                <div class="form-group col-md-2">
+                    <div class="input-group Falcustom-file-button mt-5">
+                        <input asp-for="FalProfilePhoto" class="form-control Falcustom-file-input" id="FalcustomFile">
+                        <label class="input-group-text" for="FalcustomFile">Browse</label>
+                    </div>
+                </div>
+ 
+
+                <!--For Right Photos -->
+
+                <div class="form-group col-md-2">
+
+
+
+                    @if (Model.FarPhotoUrl != null)
+                    {
+                        <img id="FarPreviewPhoto" src="~/FacilitiImages/@Model.FarPhotoUrl" alt="Logo Image"
+                             width="125" height="125" />
+                    }
+                    else
+                    {
+
+
+                        <img id="FarPreviewPhoto" src="~/images/noimage.png" alt="Logo Image"
+                             width="125" height="125" />
+                    }
+
+                    <span asp-validation-for="FarPhotoUrl" class="text-danger"></span>
+
+                </div>
+
+
+                <div class="form-group col-md-2">
+                    <div class="input-group Farcustom-file-button mt-5">
+                        <input asp-for="FarProfilePhoto" class="form-control Farcustom-file-input" id="FarcustomFile">
+                        <label class="input-group-text" for="FarcustomFile">Browse</label>
+                    </div>
+                </div>
+
+
+            </div>
+
+     
+            <div class="form-group pt-0 mt-0">
+                <div ID="HiddenDiv" style="visibility: hidden;">
+                    <input asp-for="FalPhotoUrl" id="FalPhotoUrl" value="" />
+                </div>
+            </div>
+
+            <div class="form-group pt-0 mt-0">
+                <div ID="HiddenDiv" style="visibility: hidden;">
+                    <input asp-for="FarPhotoUrl" id="FarPhotoUrl" value="" />
+                </div>
+            </div>
+
+            <br />
+            <div class="form-group" style="padding-bottom:5px;">
+                <input type="submit" value="Save" class="btn btn-primary" />&nbsp;
+                <a asp-action="Index" class="btn btn-primary">Back</a>
+            </div>
+
+        </form>
+    </div>
+
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script type="text/javascript">
+
+
+
+    </script>
+
+}
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+

@@ -65,6 +65,7 @@ E:\EasyManage\EMS\EMS\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 E:\EasyManage\EMS\EMS\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\3ee43219-879c-4c88-a014-7a804be15fe0_Photo.png
 wwwroot\images\42b767ed-0cec-4f81-b919-d2f4a2332296_Photo.png
 wwwroot\images\42dcb130-1811-48e8-941b-46df381702d8_HomeAid.gif
 wwwroot\images\4ad6c6db-c24e-438a-b1aa-badecfe15d61_punorbhaba.png
