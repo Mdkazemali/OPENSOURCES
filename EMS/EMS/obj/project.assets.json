@@ -5259,11 +5259,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\EasyManage\\EMS\\EMS\\EMS.csproj",
+      "projectUniqueName": "E:\\OPENSOURCES\\EMS\\EMS\\EMS.csproj",
       "projectName": "EMS",
-      "projectPath": "E:\\EasyManage\\EMS\\EMS\\EMS.csproj",
+      "projectPath": "E:\\OPENSOURCES\\EMS\\EMS\\EMS.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "E:\\EasyManage\\EMS\\EMS\\obj\\",
+      "outputPath": "E:\\OPENSOURCES\\EMS\\EMS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

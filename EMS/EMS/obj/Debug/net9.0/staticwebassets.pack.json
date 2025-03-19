@@ -1,299 +1,299 @@
 {
   "Files": [
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\EMS.bundle.scp.css",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\EMS.bundle.scp.css",
       "PackagePath": "staticwebassets\\EMS.j67sf3g8lc.bundle.scp.css"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\LoginImages\\punorbhaba.png",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\LoginImages\\punorbhaba.png",
       "PackagePath": "staticwebassets\\LoginImages\\punorbhaba.png"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\css\\site.css",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\favicon.ico",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\images\\3ee43219-879c-4c88-a014-7a804be15fe0_Photo.png",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\images\\3ee43219-879c-4c88-a014-7a804be15fe0_Photo.png",
       "PackagePath": "staticwebassets\\images\\3ee43219-879c-4c88-a014-7a804be15fe0_Photo.png"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\images\\42b767ed-0cec-4f81-b919-d2f4a2332296_Photo.png",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\images\\42b767ed-0cec-4f81-b919-d2f4a2332296_Photo.png",
       "PackagePath": "staticwebassets\\images\\42b767ed-0cec-4f81-b919-d2f4a2332296_Photo.png"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\images\\42dcb130-1811-48e8-941b-46df381702d8_HomeAid.gif",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\images\\42dcb130-1811-48e8-941b-46df381702d8_HomeAid.gif",
       "PackagePath": "staticwebassets\\images\\42dcb130-1811-48e8-941b-46df381702d8_HomeAid.gif"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\images\\4ad6c6db-c24e-438a-b1aa-badecfe15d61_punorbhaba.png",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\images\\4ad6c6db-c24e-438a-b1aa-badecfe15d61_punorbhaba.png",
       "PackagePath": "staticwebassets\\images\\4ad6c6db-c24e-438a-b1aa-badecfe15d61_punorbhaba.png"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\images\\946c85a8-8767-40b9-82ed-31bd2ed47966_Photo.png",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\images\\946c85a8-8767-40b9-82ed-31bd2ed47966_Photo.png",
       "PackagePath": "staticwebassets\\images\\946c85a8-8767-40b9-82ed-31bd2ed47966_Photo.png"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\images\\noimage.png",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\images\\noimage.png",
       "PackagePath": "staticwebassets\\images\\noimage.png"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\js\\qr.js",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\js\\qr.js",
       "PackagePath": "staticwebassets\\js\\qr.js"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\js\\site.js",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\qrcode.js",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\qrcode.js",
       "PackagePath": "staticwebassets\\lib\\qrcode.js"
     },
     {
-      "Id": "E:\\EasyManage\\EMS\\EMS\\wwwroot\\lib\\qrcode.min.js",
+      "Id": "E:\\OPENSOURCES\\EMS\\EMS\\wwwroot\\lib\\qrcode.min.js",
       "PackagePath": "staticwebassets\\lib\\qrcode.min.js"
     },
     {

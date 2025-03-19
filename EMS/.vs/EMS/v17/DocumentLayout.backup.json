@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\EasyManage\\EMS\\",
+  "WorkspaceRootPath": "E:\\OPENSOURCES\\EMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DCC8E1AB-CCEC-4D30-B864-CDF444EC396A}|EMS\\EMS.csproj|e:\\easymanage\\ems\\ems\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{DCC8E1AB-CCEC-4D30-B864-CDF444EC396A}|EMS\\EMS.csproj|e:\\opensources\\ems\\ems\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DCC8E1AB-CCEC-4D30-B864-CDF444EC396A}|EMS\\EMS.csproj|solutionrelative:ems\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -20,13 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\EasyManage\\EMS\\EMS\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "E:\\OPENSOURCES\\EMS\\EMS\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "EMS\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\EasyManage\\EMS\\EMS\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "EMS\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAANIAAAAAAAAAAAAAAM8AAAAfAAAAAAAAAA==",
+              "ToolTip": "E:\\OPENSOURCES\\EMS\\EMS\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "EMS\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAALoAAAAAAAAAAAAAAM0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-19T09:47:13.845Z",
+              "WhenOpened": "2025-03-19T10:43:12.628Z",
               "EditorCaption": ""
             }
           ]
